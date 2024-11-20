@@ -25,7 +25,7 @@ public class FrequencyLogger {
             );
         }
         Runnable logTask = () -> {
-            int i=1;
+            int i = 1;
             while (!Thread.interrupted()) {
                 synchronized (sizeToFreq) {
                     try {
